@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Caza del Tesoro 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="caja">
+
+  <h1 id="texto">💌 Hola, Amor. ¿Aceptas el reto?</h1>
+
+  <div id="botones-inicio">
+    <button onclick="aceptar()">Sí 💜</button>
+    <button onclick="rechazar()">No 😏</button>
+  </div>
+
+  <input id="entrada" type="text" placeholder="Tu respuesta...">
+
+  <div id="botones-juego">
+    <button onclick="verificar()">Responder 💜</button>
+    <button onclick="atras()">⬅ Atrás</button>
+  </div>
+
+  <button id="btn-invitacion" onclick="abrirInvitacion()">Abrir invitación 💌</button>
+  <button id="btn-aceptar" onclick="confirmar()">Aceptar cita 💜</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

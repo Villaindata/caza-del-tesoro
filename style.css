@@ -1,0 +1,31 @@
+body {
+  background: #5B2C87;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+.caja {
+  margin-top: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+#btn-invitacion, #btn-aceptar {
+  display: none;
+  background: #FFD54F;
+  color: #5B2C87;
+}
