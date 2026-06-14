@@ -1,9 +1,9 @@
 let pista = 0;
 
 const preguntas = [
-  {q: "¿En qué fecha nos dimos nuestro primer beso Mes/Día/Año?", a: "26/12/2025"},
-  {q: "¿En qué fecha tuvimos nuestra primera cita Mes/Día/Año?", a: "4/01/2026"},
-  {q: "¿Cuál emoji usamos más en nuestras conversaciones?", a: "❤️‍🩹"}
+  {q: "¿En qué fecha nos dimos nuestro primer beso Día/Mes/Año?", a: "26/12/2025"},
+  {q: "¿En qué fecha tuvimos nuestra primera cita Día/Mes/Año?", a: "4/01/2026"},
+  {q: "Pon el emoji que más usamos en nuestras conversaciones", a: "❤️‍🩹"}
 ];
 
 function aceptar() {
