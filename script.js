@@ -33,9 +33,7 @@ function aceptar() {
 }
 
 function rechazar() {
-  texto.innerText = "😏 Tú te lo pierdes, :c
-(Aunque aquí estaré
-por si cambias de opinión 💜)";
+  texto.innerText = "😏 Tú te lo pierdes, :c\n(Aunque aquí estaré\npor si cambias de opinión 💜)";
 }
 
 // MOSTRAR PISTA
