@@ -33,7 +33,9 @@ function aceptar() {
 }
 
 function rechazar() {
-  texto.innerText = "😏 Tú te lo pierdes...";
+  texto.innerText = "😏 Tú te lo pierdes, :c
+(Aunque aquí estaré
+por si cambias de opinión 💜)";
 }
 
 // MOSTRAR PISTA
@@ -63,7 +65,7 @@ function verificar() {
 
     } else {
 
-      texto.innerText = "✨ ¡Correcto!";
+      texto.innerText = "✨ ¡Correcto! Has desbloqueado la siguiente pista.";
 
       setTimeout(() => {
         mostrarPista();
@@ -72,7 +74,7 @@ function verificar() {
     }
 
   } else {
-    texto.innerText = "😏 Intenta otra vez...";
+    texto.innerText = "😏 Intenta otra vez, ¡Animo!";
   }
 }
 
@@ -92,7 +94,7 @@ function abrirInvitacion() {
 💌 INVITACIÓN OFICIAL 💌
 
 📍 Lugar: Piscilago
-🗓 Fecha: 19/06/2026
+🗓 Fecha: 19/06/2026 (Viajamos desde el 18)
 🕒 Hora: 9:00 AM
 ✨ Dress code:Ropa cómoda + traje de baño 😏
 `;
@@ -103,5 +105,5 @@ function abrirInvitacion() {
 
 // CONFIRMAR
 function confirmar() {
-  texto.innerText = "❤️ Cita confirmada ❤️";
+  texto.innerText = "❤️‍🩹 Cita confirmada ❤️‍🩹";
 }
