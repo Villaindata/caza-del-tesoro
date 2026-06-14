@@ -1,8 +1,8 @@
 let pista = 0;
 
 const preguntas = [
-  {q: "¿En qué fecha nos dimos nuestro primer beso?", a: "26/12/2025"},
-  {q: "¿En qué fecha tuvimos nuestra primera cita?", a: "4/01/2026"},
+  {q: "¿En qué fecha nos dimos nuestro primer beso Mes/Día/Año?", a: "26/12/2025"},
+  {q: "¿En qué fecha tuvimos nuestra primera cita Mes/Día/Año?", a: "4/01/2026"},
   {q: "¿Cuál emoji usamos más en nuestras conversaciones?", a: "❤️‍🩹"}
 ];
 
@@ -49,11 +49,11 @@ function atras() {
 
 function abrirInvitacion() {
   document.getElementById("texto").innerText = `
-💌 INVITACIÓN OFICIAL 💌
+💌 GANASTE UNA CITA MUY ESPECIAL 💌
 
-📍 Lugar: Piscilago
-🗓 Fecha: 19/06/2026
-🕖 Hora: 9:00 AM (Nos vamos desde el 18)
+📍 Lugar: Piscilago 🏊
+🗓 Fecha: 19/06/2026 (Nos vamos desde el 18)
+🕖 Hora: 9:00 AM
 ✨ Dress code: Ropa cómoda + traje de baño 😏
 `;
 
@@ -61,5 +61,5 @@ function abrirInvitacion() {
 }
 
 function confirmar() {
-  document.getElementById("texto").innerText = "❤️‍🩹 Reserva confirmada ❤️‍🩹";
+  document.getElementById("texto").innerText = "💜 Cita confirmada 💜";
 }
