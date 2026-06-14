@@ -91,9 +91,10 @@ function abrirInvitacion() {
   texto.innerText = `
 💌 INVITACIÓN OFICIAL 💌
 
-📍 Piscilago
-🗓 14/06/2026
-🕒 9:00 AM
+📍 Lugar: Piscilago
+🗓 Fecha: 19/06/2026
+🕒 Hora: 9:00 AM
+✨ Dress code:Ropa cómoda + traje de baño 😏
 `;
 
   btnInv.style.display = "none";
@@ -102,5 +103,5 @@ function abrirInvitacion() {
 
 // CONFIRMAR
 function confirmar() {
-  texto.innerText = "❤️ Reserva confirmada ❤️";
+  texto.innerText = "❤️ Cita confirmada ❤️";
 }
